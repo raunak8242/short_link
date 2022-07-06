@@ -22,7 +22,7 @@ app.get('/:customRouteName', function(req, res){
     const customRouteName = req.params.customRouteName;
     res.render(customRouteName);
 });
-app.post("/", function (req, res) {
+app.post("/", function (req, res){
   const long_link = req.body.name1;
   const short_link = req.body.name2;
   const list = new List({full: long_link, short: short_link});
