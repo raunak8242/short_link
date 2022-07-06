@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <title>URL Shortner Project</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My URL Shortner</h1>
+    <form method="POST" class="my-4 form-inline">
+      <label for="fullUrl" class="sr-only">URL</label>
+      <input required placeholder="Long Link" type="url" name="name1" id="fullUrl" class="form-control col mr-2" />
+      <input required placeholder="Short Link" type="string" name="name2" id="fullUrl" class="form-control col mr-2" />
+      <button class="btn btn-success " type="submit">Make it short</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h1>Have a short link! Wanna try it?</h1>
+    <h4>Click below👇👇👇</h4>
+    <a class="btn btn-dark btn-block" href="http://localhost:3000/short">Click me</a>
+    <br>
+    <br>
+    <h1>Have a short link! Wanna delete it?</h1>
+    <h4>Click below👇👇👇</h4>
+    <a class="btn btn-danger btn-block" href="http://localhost:3000/delete">Click me</a>
+
+  </div>
+</body>
+
+</html>
